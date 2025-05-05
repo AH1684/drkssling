@@ -1,0 +1,98 @@
+{
+  "version": 1,
+  "formatting": [
+    {
+    "type": "separator",
+    "title": "Dr. K'S Sling Confling",
+    "weight": 0.8
+    }
+  ],
+  "patches": {
+    "integer": {
+      "drkssling:itemtypes/woodsling.json": {
+        "/attributes/backpackByType/*-normal/quantitySlots": "WOODSLING_SLOTS",
+        "/attributes/backpackByType/*-sturdy/quantitySlots": "WOODSLINGSTURDY_SLOTS"
+      },
+      "drkssling:recipes/grid/woodsling.json": {
+        "/ingredients/T/quantity": "WOODSLING_TWINECOUNT / 2",
+        "/ingredients/L/quantity": "WOODSLING_LEATHERCOUNT / 3"
+      },
+        "drkssling:recipes/grid/woodslingsturdy.json": {
+        "/ingredients/L/quantity": "WOODSLINGSTURDY_LEATHERCOUNT / 2"
+      },
+    },
+    "boolean": {
+        "drkssling:recipes/grid/woodsling.json": {
+        "/enabled": "WOODSLING_ENABLED"
+      },
+      "drkssling:recipes/grid/woodslingsturdy.json": {
+        "/enabled": "WOODSLINGSTURDY_ENABLED"
+      },
+    },
+  },
+  "settings": {
+    "integer": {
+      "WOODSLING_SLOTS": {
+        "name": "Woodsling-Slots",
+        "comment": "Storage Slots the Woodsling gives",
+        "default": 10,
+        "range": {
+          "min": 1,
+          "max": 40,
+          "step": 1
+        }
+      },
+    "WOODSLINGSTURDY_SLOTS": {
+        "name": "Sturdy-Woodsling-Slots",
+        "comment": "Storage Slots the Sturdy Woodsling gives",
+        "default": 14,
+        "range": {
+          "min": 1,
+          "max": 40,
+          "step": 1
+        }
+      },
+    "WOODSLING_TWINECOUNT": {
+        "name": "Woodsling-Twine-Count",
+        "comment": "Total Twine to make a woodsling.",
+        "default": 4,
+        "range": {
+          "min": 2,
+          "max": 18,
+          "step": 2
+        }
+      },
+    "WOODSLING_LEATHERCOUNT": {
+        "name": "Woodsling-Leather-Count",
+        "comment": "Total Leather to make a woodsling.",
+        "default": 9,
+        "range": {
+          "min": 3,
+          "max": 27,
+          "step": 3
+        }
+      },
+    "WOODSLINGSTURDY_LEATHERCOUNT": {
+        "name": "Sturdy-Woodsling-Leather-Count",
+        "comment": "Total Sturdy Leather to make a woodsling.",
+        "default": 6,
+        "range": {
+          "min": 2,
+          "max": 18,
+          "step": 2
+        }
+      },
+    },
+     "boolean": {
+        "WOODSLING_ENABLED": {
+        "name": "Enable/Disable Woodsling Recipe",
+        "default": "true"       
+        },
+        "WOODSLINGSTURDY_ENABLED": {
+        "name": "Enable/Disable Sturdy Woodsling Recipe",
+        "default": "true"       
+        }
+    
+    }
+  }
+}

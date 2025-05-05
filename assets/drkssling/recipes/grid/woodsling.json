@@ -1,0 +1,23 @@
+{
+    "enabled": "true",	
+    "ingredientPattern": "T_T,LLL",
+	"ingredients": {
+		"T": {
+			"type": "item",
+			"code": "game:flaxtwine",
+            "quantity": 2
+		},
+		"L": {
+			"type": "item",
+			"code": "game:leather-normal-plain",
+            "quantity": 3
+		}
+	},
+    "name": "Wood Sling",
+	"width": 3,
+	"height": 2,
+	"output": {
+		"type": "item",
+		"code": "woodbag-normal"
+	}
+}

@@ -1,0 +1,23 @@
+{
+    "enabled": "true",	
+    "ingredientPattern": "LBL",
+	"ingredients": {
+		"B": {
+			"type": "item",
+			"code": "woodbag-normal",
+            "quantity": 1
+		},
+		"L": {
+			"type": "item",
+			"code": "game:leather-sturdy-*",
+            "quantity": 3
+		}
+	},
+    "name": "Wood Sling",
+	"width": 3,
+	"height": 1,
+	"output": {
+		"type": "item",
+		"code": "woodbag-sturdy"
+	}
+}

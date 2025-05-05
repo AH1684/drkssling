@@ -1,0 +1,9 @@
+[
+    {
+        "file" : "fseasonedfirewood:itemtypes/resource/firewood-seasonsed.json",
+        "path": "/storageFlags",
+        "op": "add",
+        "value": 16385,
+        "dependsOn": [{ "modid": "fseasonedfirewood" }]
+    }
+]

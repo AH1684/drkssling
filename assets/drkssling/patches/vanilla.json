@@ -1,0 +1,88 @@
+[
+    {
+        "file" : "game:itemtypes/tool/axe-stone",
+        "path": "/storageFlags",
+        "op": "add",
+        "value": 16385
+    },
+    {
+        "file" : "game:itemtypes/tool/axe-metal",
+        "path": "/storageFlags",
+        "op": "add",
+        "value": 16385,
+        "dependsOn": [{"modid": "indappledgroves", "invert": true}]
+    },
+    {
+        "file" : "game:itemtypes/resource/firewood*",
+        "path": "/storageFlags",
+        "op": "add",
+        "value": 16385
+    },
+    {
+        "file" : "game:itemtypes/resource/oakbark.json",
+        "path": "/storageFlags",
+        "op": "add",
+        "value": 16385
+    },
+    {
+        "file" : "game:itemtypes/resource/plank.json",
+        "path": "/storageFlags",
+        "op": "add",
+        "value": 16385
+    },
+    {
+        "file" : "game:itemtypes/resource/resin.json",
+        "path": "/storageFlags",
+        "op": "add",
+        "value": 16385
+    },
+    {
+        "file" : "game:itemtypes/resource/treeseed.json",
+        "path": "/storageFlags",
+        "op": "add",
+        "value": 16385
+    },
+    {
+        "file" : "game:itemtypes/resource/stick.json",
+        "path": "/storageFlags",
+        "op": "add",
+        "value": 16385
+    },
+    {
+        "file" : "game:blocktypes/plant/bamboo.json",
+        "path": "/storageFlags",
+        "op": "add",
+        "value": 16385
+    },
+    {
+        "file" : "game:blocktypes/plant/plaintreesapling.json",
+        "path": "/storageFlags",
+        "op": "add",
+        "value": 16385
+    },
+    {
+        "file" : "game:blocktypes/plant/fruittreebranch.json",
+        "path": "/storageFlags",
+        "op": "add",
+        "value": 16385
+    },
+    {
+        "file" : "game:blocktypes/wood/woodtyped/log*",
+        "path": "/storageFlags",
+        "op": "add",
+        "value": 16385
+    },
+    {
+        "file" : "game:blocktypes/wood/rotten-log.json",
+        "path": "/storageFlags",
+        "op": "add",
+        "value": 16385
+    },
+    {
+        "file" : "game:blocktypes/wood/palisade*",
+        "path": "/storageFlags",
+        "op": "add",
+        "value": 16385
+    }
+]
+

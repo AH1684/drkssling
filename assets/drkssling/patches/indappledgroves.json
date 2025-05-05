@@ -1,0 +1,37 @@
+[
+    {
+        "file" : "indappledgroves:itemtypes/tools/*",
+        "path": "/storageFlags",
+        "op": "add",
+        "value": 16385,
+        "dependsOn": [{ "modid": "indappledgroves" }]
+    },
+    {
+        "file" : "indappledgroves:itemtypes/resources/bark.json",
+        "path": "/storageFlags",
+        "op": "add",
+        "value": 16385,
+        "dependsOn": [{ "modid": "indappledgroves" }]
+    },
+    {
+        "file" : "indappledgroves:itemtypes/resources/splitterblade.json",
+        "path": "/storageFlags",
+        "op": "add",
+        "value": 16385,
+        "dependsOn": [{ "modid": "indappledgroves" }]
+    },
+    {
+        "file" : "indappledgroves:blocktypes/saw*",
+        "path": "/storageFlags",
+        "op": "add",
+        "value": 16385,
+        "dependsOn": [{ "modid": "indappledgroves" }]
+    },
+    {
+        "file" : "indappledgroves:blocktypes/log*",
+        "path": "/storageFlags",
+        "op": "add",
+        "value": 16385,
+        "dependsOn": [{ "modid": "indappledgroves" }]
+    },
+]

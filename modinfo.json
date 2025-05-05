@@ -1,0 +1,22 @@
+{
+  "Type": 1,
+  "TextureSize": 32,
+  "Name": "Dr. K's Slings",
+  "Version": "1.0.0",
+  "NetworkVersion": null,
+  "Description": "Task Specific Slings",
+  "Website": "",
+  "CoreMod": false,
+  "ModID": "drkssling",
+  "Authors": [
+    "Dr. Cpl. Klinger"
+  ],
+  "Contributors": [],
+  "Side": "Universal",
+  "RequiredOnClient": true,
+  "RequiredOnServer": true,
+  "Dependencies": {
+    "game": "",
+	"survival": "",
+  }
+}
