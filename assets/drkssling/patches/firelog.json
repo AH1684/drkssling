@@ -1,0 +1,9 @@
+[
+    {
+        "file" : "firelog:itemtypes/resource/firelog.json",
+        "path": "/storageFlags",
+        "op": "add",
+        "value": 16385,
+        "dependsOn": [{ "modid": "firelog" }]
+    }
+]
