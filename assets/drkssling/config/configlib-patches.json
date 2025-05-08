@@ -22,7 +22,8 @@
         "/4/ingredients/T/quantity": "WOODSLING_TWINECOUNT / 2",
         "/5/ingredients/T/quantity": "WOODSLING_TWINECOUNT / 2",
         "/4/ingredients/L/quantity": "WOODSLING_LEATHERCOUNT / 3",
-        "/5/ingredients/L/quantity": "WOODSLINGSTURDY_LEATHERCOUNT / 2"
+        "/5/ingredients/L/quantity": "WOODSLING_LEATHERCOUNT / 3",
+        "/6/ingredients/L/quantity": "WOODSLINGSTURDY_LEATHERCOUNT / 2"
       },
     },
     "_comment": "Can't figure out skip variants, ask about and fix later.'",
@@ -38,7 +39,8 @@
         "/2/enabled": "WOODSLINGPRIMITIVE_ENABLED",
         "/3/enabled": "WOODSLINGPRIMITIVE_ENABLED",
         "/4/enabled": "WOODSLING_ENABLED",
-        "/5/enabled": "WOODSLING_ENABLED"
+        "/5/enabled": "WOODSLING_ENABLED",
+        "/6/enabled": "WOODSLINGSTURDY_ENABLED"
       },
     },
   },
