@@ -1,0 +1,72 @@
+[
+    {
+        "file" : "wildcrafttree:itemtypes/resource/*",
+        "path": "/storageFlags",
+        "op": "add",
+        "value": 16385,
+        "dependsOn": [{ "modid": "wildcrafttree" }]
+    },
+    {
+        "file" : "wildcrafttree:blocktypes/wood/thonylog.json",
+        "path": "/storageFlags",
+        "op": "add",
+        "value": 16385,
+        "dependsOn": [{ "modid": "wildcrafttree" }]
+    },
+    {
+        "file" : "wildcrafttree:blocktypes/wood/stumps.json",
+        "path": "/storageFlags",
+        "op": "add",
+        "value": 16385,
+        "dependsOn": [{ "modid": "wildcrafttree" }]
+    },
+    {
+        "file" : "wildcrafttree:blocktypes/wood/seededstumps.json",
+        "path": "/storageFlags",
+        "op": "add",
+        "value": 16385,
+        "dependsOn": [{ "modid": "wildcrafttree" }]
+    },
+    {
+        "file" : "wildcrafttree:blocktypes/wood/cleanedstump.json",
+        "path": "/storageFlags",
+        "op": "add",
+        "value": 16385,
+        "dependsOn": [{ "modid": "wildcrafttree" }]
+    },
+    {
+        "file" : "wildcrafttree:blocktypes/wood/mangroveroots.json",
+        "path": "/storageFlags",
+        "op": "add",
+        "value": 16385,
+        "dependsOn": [{ "modid": "wildcrafttree" }]
+    },
+    {
+        "file" : "wildcrafttree:blocktypes/wood/woodtyped/log*",
+        "path": "/storageFlags",
+        "op": "add",
+        "value": 16385,
+        "dependsOn": [{ "modid": "wildcrafttree" }]
+    },
+    {
+        "file" : "wildcrafttree:blocktypes/wax/wildbeehive-inlog.json",
+        "path": "/storageFlags",
+        "op": "add",
+        "value": 16385,
+        "dependsOn": [{ "modid": "wildcrafttree" }]
+    },
+    {
+        "file" : "wildcrafttree:blocktypes/plants/plaintreesapling.json",
+        "path": "/storageFlags",
+        "op": "add",
+        "value": 16385,
+        "dependsOn": [{ "modid": "wildcrafttree" }]
+    },
+    {
+        "file" : "wildcrafttree:blocktypes/plants/leaves/*",
+        "path": "/storageFlags",
+        "op": "add",
+        "value": 16385,
+        "dependsOn": [{ "modid": "wildcrafttree" }]
+    },
+]

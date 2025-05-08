@@ -25,10 +25,10 @@
         "/5/ingredients/L/quantity": "WOODSLINGSTURDY_LEATHERCOUNT / 2"
       },
     },
-    "_comment": "Can't figure out, ask about and fix later.'",
+    "_comment": "Can't figure out skip variants, ask about and fix later.'",
     "string": {
         "drkssling:itemtypes/woodsling.json": {
-        "/skipVariants/-" : "(WOODSLINGPRIMITIVE_ENABLED) ? value : woodbag-primitive"
+        "/attributes/backpack/slotBgColor": "INVENTORYCOLOR"
         }
     },
     "boolean": {
@@ -104,6 +104,12 @@
           "step": 2
         }
       },
+    },
+     "string": {
+        "INVENTORYCOLOR": {
+        "name":"Color of Wood Sling Slots",
+        "default": "#6e9677"
+        }
     },
      "boolean": {
         "WOODSLING_ENABLED": {
