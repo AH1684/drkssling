@@ -1,0 +1,30 @@
+[
+    {
+        "file" : "ancienttools:blocktypes/debarkednarrow.json",
+        "path": "/storageFlags",
+        "op": "add",
+        "value": 16385,
+        "dependsOn": [{ "modid": "ancienttools" }]
+    },
+    {
+        "file" : "ancienttools:itemtypes/resources/bark.json",
+        "path": "/storageFlags",
+        "op": "add",
+        "value": 16385,
+        "dependsOn": [{ "modid": "ancienttools" }]
+    },
+    {
+        "file" : "ancienttools:itemtypes/tools/adze.json",
+        "path": "/storageFlags",
+        "op": "add",
+        "value": 16385,
+        "dependsOn": [{ "modid": "ancienttools" }]
+    },
+    {
+        "file" : "ancienttools:blocktypes/directionalresin.json",
+        "path": "/storageFlags",
+        "op": "add",
+        "value": 16385,
+        "dependsOn": [{ "modid": "ancienttools" }]
+    },
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "file" : "primitivesurvival:blocktypes/wood/treehollow*",
+        "path": "/storageFlags",
+        "op": "add",
+        "value": 16385,
+        "dependsOn": [{ "modid": "primitivesurvival" }]
+    },
+    {
+        "file" : "primitivesurvival:itemtypes/wood/woodspikebundle.json",
+        "path": "/storageFlags",
+        "op": "add",
+        "value": 16385,
+        "dependsOn": [{ "modid": "primitivesurvival" }]
+    },
+    {
+        "file" : "primitivesurvival:blocktypes/stake/stake.json",
+        "path": "/storageFlags",
+        "op": "add",
+        "value": 16385,
+        "dependsOn": [{ "modid": "primitivesurvival" }]
+    },
+]
