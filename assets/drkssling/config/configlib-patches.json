@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "formatting": [
     {
     "type": "separator",
@@ -10,23 +10,35 @@
   "patches": {
     "integer": {
       "drkssling:itemtypes/woodsling.json": {
-        "/attributes/backpackByType/*-normal/quantitySlots": "WOODSLING_SLOTS",
-        "/attributes/backpackByType/*-sturdy/quantitySlots": "WOODSLINGSTURDY_SLOTS"
+        "/attributes/backpack/quantitySlotsbytype/*-primitive": "WOODSLINGPRIMITIVE_SLOTS",
+        "/attributes/backpack/quantitySlotsbytype/*-normal": "WOODSLING_SLOTS",
+        "/attributes/backpack/quantitySlotsbytype/*-sturdy": "WOODSLINGSTURDY_SLOTS",
       },
       "drkssling:recipes/grid/woodsling.json": {
-        "/ingredients/T/quantity": "WOODSLING_TWINECOUNT / 2",
-        "/ingredients/L/quantity": "WOODSLING_LEATHERCOUNT / 3"
+        "/0/ingredients/T/quantity": "WOODSLING_TWINECOUNT / 2",
+        "/1/ingredients/T/quantity": "WOODSLING_TWINECOUNT / 2",
+        "/2/ingredients/T/quantity": "WOODSLING_TWINECOUNT / 2",
+        "/3/ingredients/T/quantity": "WOODSLING_TWINECOUNT / 2",
+        "/4/ingredients/T/quantity": "WOODSLING_TWINECOUNT / 2",
+        "/5/ingredients/T/quantity": "WOODSLING_TWINECOUNT / 2",
+        "/4/ingredients/L/quantity": "WOODSLING_LEATHERCOUNT / 3",
+        "/5/ingredients/L/quantity": "WOODSLINGSTURDY_LEATHERCOUNT / 2"
       },
-        "drkssling:recipes/grid/woodslingsturdy.json": {
-        "/ingredients/L/quantity": "WOODSLINGSTURDY_LEATHERCOUNT / 2"
-      },
+    },
+    "_comment": "Can't figure out, ask about and fix later.'",
+    "string": {
+        "drkssling:itemtypes/woodsling.json": {
+        "/skipVariants/-" : "(WOODSLINGPRIMITIVE_ENABLED) ? value : woodbag-primitive"
+        }
     },
     "boolean": {
         "drkssling:recipes/grid/woodsling.json": {
-        "/enabled": "WOODSLING_ENABLED"
-      },
-      "drkssling:recipes/grid/woodslingsturdy.json": {
-        "/enabled": "WOODSLINGSTURDY_ENABLED"
+        "/0/enabled": "WOODSLINGPRIMITIVE_ENABLED",
+        "/1/enabled": "WOODSLINGPRIMITIVE_ENABLED",
+        "/2/enabled": "WOODSLINGPRIMITIVE_ENABLED",
+        "/3/enabled": "WOODSLINGPRIMITIVE_ENABLED",
+        "/4/enabled": "WOODSLING_ENABLED",
+        "/5/enabled": "WOODSLING_ENABLED"
       },
     },
   },
@@ -46,6 +58,16 @@
         "name": "Sturdy-Woodsling-Slots",
         "comment": "Storage Slots the Sturdy Woodsling gives",
         "default": 14,
+        "range": {
+          "min": 1,
+          "max": 40,
+          "step": 1
+        }
+      },
+        "WOODSLINGPRIMITIVE_SLOTS": {
+        "name": "Primitive-Woodsling-Slots",
+        "comment": "Storage Slots the Primitive Woodsling gives",
+        "default": 8,
         "range": {
           "min": 1,
           "max": 40,
@@ -85,11 +107,15 @@
     },
      "boolean": {
         "WOODSLING_ENABLED": {
-        "name": "Enable/Disable Woodsling Recipe",
+        "name": "Enable/Disable Woodsling",
         "default": "true"       
         },
         "WOODSLINGSTURDY_ENABLED": {
-        "name": "Enable/Disable Sturdy Woodsling Recipe",
+        "name": "Enable/Disable Sturdy Woodsling",
+        "default": "true"       
+        },
+        "WOODSLINGPRIMITIVE_ENABLED": {
+        "name": "Enable/Disable Primitive Woodsling",
         "default": "true"       
         }
     

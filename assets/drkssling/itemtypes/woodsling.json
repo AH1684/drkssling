@@ -2,14 +2,27 @@
     enabled: "true",
 	code: "woodbag",
 	maxstacksize: 1,
-	shape: { base: "woodsling-{type}" },
+	shapebytype:{ 	"*sturdy":{ base: "woodsling-sturdy" },
+			"*":{ base: "woodsling-normal" } },
 	behaviors: [
 		{ name: "GroundStorable", properties: { layout: "SingleCenter", collisionBox: { x1: 0.25, y1: 0, z1: 0.25, x2: 0.75, y2: 0.375, z2: 0.75 }}},
 		{ name: "HeldBag" }
 	],
     variantgroups: [
-		{ code:"type", states: ["normal", "sturdy"] }
+		{ code:"type", states: ["normal", "sturdy","primitive"] }
 	],
+    skipVariants: [],
+	texturesbytype: {
+		"*-primitive": { 
+                "pelt": { base: "game:item/resource/hide/raw"}
+                },
+		"*-normal": { 
+                "pelt": { base: "game:item/resource/hide/pelt"}
+                },
+        "*-sturdy": { 
+                "pelt": { base: "game:item/resource/hide/pelt"}
+                }
+	},
 	storageFlags: 2,
 	creativeinventory: { "general": ["*"], "items": ["*"] },
 	guiTransform: {
@@ -36,13 +49,12 @@
 		scale: 2.5
 	},
 	attributes: {
-		backpackByType: {
-			"*-normal": { quantitySlots: 10,
+		backpack: {
+			  quantitySlotsbytype:{ "*-primitive": 8,
+						"*-normal": 10,
+						"*-sturdy": 14},
                           storageFlags: 16384,
-			              slotBgColor: "#6e9677"   },
-			"*-sturdy": { quantitySlots: 14,
-                          storageFlags: 16384,
-			              slotBgColor: "#6e9677"}
+			  slotBgColor: "#6e9677"
 		}
 	},
 }

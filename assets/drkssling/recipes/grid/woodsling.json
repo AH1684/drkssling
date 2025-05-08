@@ -1,3 +1,120 @@
+[
+{
+    "enabled": "true",	
+    "ingredientPattern": "TKT,PPP",
+	"ingredients": {
+        "K": {
+            "type": "item",
+            "code": "game:knife-*",
+            "quantity": 1,
+            "isTool": true
+        },
+		"T": {
+			"type": "item",
+			"code": "game:flaxtwine",
+            "quantity": 2
+		},
+		"P": {
+			"type": "item",
+			"code": "game:hide-pelt-small",
+            "quantity": 3
+		}
+	},
+    "name": "Wood Sling",
+	"width": 3,
+	"height": 2,
+	"output": {
+		"type": "item",
+		"code": "woodbag-primitive"
+	}
+},
+{
+    "enabled": "true",	
+    "ingredientPattern": "TKT,PPP",
+	"ingredients": {
+        "K": {
+            "type": "item",
+            "code": "game:knife-*",
+            "quantity": 1,
+            "isTool": true
+        },
+		"T": {
+			"type": "item",
+			"code": "game:flaxtwine",
+            "quantity": 2
+		},
+		"P": {
+			"type": "item",
+			"code": "game:hide-pelt-medium",
+            "quantity": 1
+		}
+	},
+    "name": "Wood Sling",
+	"width": 3,
+	"height": 2,
+	"output": {
+		"type": "item",
+		"code": "woodbag-primitive"
+	}
+},
+{
+    "enabled": "true",	
+    "ingredientPattern": "TPT,K__",
+	"ingredients": {
+        "K": {
+            "type": "item",
+            "code": "game:knife-*",
+            "quantity": 1,
+            "isTool": true
+        },
+		"T": {
+			"type": "item",
+			"code": "game:flaxtwine",
+            "quantity": 2
+		},
+		"P": {
+			"type": "item",
+			"code": "game:hide-pelt-large",
+            "quantity": 1
+		}
+	},
+    "name": "Wood Sling",
+	"width": 3,
+	"height": 2,
+	"output": {
+		"type": "item",
+		"code": "woodbag-primitive"
+	}
+},
+{
+    "enabled": "true",	
+    "ingredientPattern": "TPT,K__",
+	"ingredients": {
+        "K": {
+            "type": "item",
+            "code": "game:knife-*",
+            "quantity": 1,
+            "isTool": true
+        },
+		"T": {
+			"type": "item",
+			"code": "game:flaxtwine",
+            "quantity": 2
+		},
+		"P": {
+			"type": "item",
+			"code": "game:hide-pelt-huge",
+            "quantity": 1
+		}
+	},
+    "name": "Wood Sling",
+	"width": 3,
+	"height": 2,
+	"output": {
+		"type": "item",
+		"code": "woodbag-primitive"
+	}
+},
 {
     "enabled": "true",	
     "ingredientPattern": "T_T,LLL",
@@ -20,4 +137,28 @@
 		"type": "item",
 		"code": "woodbag-normal"
 	}
+},
+{
+    "enabled": "true",	
+    "ingredientPattern": "LBL",
+	"ingredients": {
+		"B": {
+			"type": "item",
+			"code": "woodbag-normal",
+            "quantity": 1
+		},
+		"L": {
+			"type": "item",
+			"code": "game:leather-sturdy-*",
+            "quantity": 3
+		}
+	},
+    "name": "Wood Sling",
+	"width": 3,
+	"height": 1,
+	"output": {
+		"type": "item",
+		"code": "woodbag-sturdy"
+	}
 }
+]
