@@ -1,0 +1,90 @@
+[
+    {
+        "op": "addmerge",
+        "path": "/storageFlags",
+        "value": 16385,
+        "file": "floralzonescosmopolitanregion:blocktypes/wood/log*",
+		"dependsOn": [
+            {
+                "modid": "floralzonescosmopolitanregion"
+            }
+        ]
+    },
+    {
+        "op": "addmerge",
+        "path": "/storageFlags",
+        "value": 16385,
+        "file": "floralzonescosmopolitanregion:blocktypes/wood/thintrunk.json",
+		"dependsOn": [
+            {
+                "modid": "floralzonescosmopolitanregion"
+            }
+        ]
+    },
+    {
+        "op": "addmerge",
+        "path": "/storageFlags",
+        "value": 16385,
+        "file": "floralzonescosmopolitanregion:blocktypes/wood/mangrovetrunk.json",
+		"dependsOn": [
+            {
+                "modid": "floralzonescosmopolitanregion"
+            }
+        ]
+    },
+    {
+        "op": "addmerge",
+        "path": "/storageFlags",
+        "value": 16385,
+        "file": "floralzonescosmopolitanregion:blocktypes/wood/papayastalk.json",
+		"dependsOn": [
+            {
+                "modid": "floralzonescosmopolitanregion"
+            }
+        ]
+    },
+    {
+        "op": "addmerge",
+        "path": "/storageFlags",
+        "value": 16385,
+        "file": "floralzonescosmopolitanregion:blocktypes/plant/plaintreesapling.json",
+		"dependsOn": [
+            {
+                "modid": "floralzonescosmopolitanregion"
+            }
+        ]
+    },
+    {
+        "op": "addmerge",
+        "path": "/storageFlags",
+        "value": 16385,
+        "file": "floralzonescosmopolitanregion:blocktypes/plant/leaves/*",
+		"dependsOn": [
+            {
+                "modid": "floralzonescosmopolitanregion"
+            }
+        ]
+    },
+    {
+        "op": "addmerge",
+        "path": "/storageFlags",
+        "value": 16385,
+        "file": "floralzonescosmopolitanregion:itemtypes/resource/treeseed.json",
+		"dependsOn": [
+            {
+                "modid": "floralzonescosmopolitanregion"
+            }
+        ]
+    },
+    {
+        "op": "addmerge",
+        "path": "/storageFlags",
+        "value": 16385,
+        "file": "floralzonescosmopolitanregion:itemtypes/resource/palmleaf.json",
+		"dependsOn": [
+            {
+                "modid": "floralzonescosmopolitanregion"
+            }
+        ]
+    },
+]
