@@ -11,7 +11,7 @@
   "Authors": [
     "Dr. Cpl. Klinger"
   ],
-  "Contributors": [],
+  "Contributors": [ComitatensSaxoni],
   "Side": "Universal",
   "RequiredOnClient": true,
   "RequiredOnServer": true,
